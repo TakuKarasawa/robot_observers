@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/amsl/catkin_ws/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/amsl/catkin_ws/src/autonomous_driving_tools/a_star_planner/include/**",
+                "/home/amsl/catkin_ws/src/child_observer/include/**",
+                "/home/amsl/catkin_ws/src/darknet_ros/darknet_ros/include/**",
+                "/home/amsl/catkin_ws/src/autonomous_driving_tools/dwa_planner/include/**",
+                "/home/amsl/catkin_ws/src/equirectangular_convertor/include/**",
+                "/home/amsl/catkin_ws/src/image_comparator/include/**",
+                "/home/amsl/catkin_ws/src/autonomous_driving_tools/local_goal_creator/include/**",
+                "/home/amsl/catkin_ws/src/autonomous_driving_tools/local_map_creator/include/**",
+                "/home/amsl/catkin_ws/src/autonomous_driving_tools/mcl/include/**",
+                "/home/amsl/catkin_ws/src/object_color_detector/object_color_detector_params/include/**",
+                "/home/amsl/catkin_ws/src/object_localizer/include/**",
+                "/home/amsl/catkin_ws/src/object_map_manager/include/**",
+                "/home/amsl/catkin_ws/src/parent_observer/include/**",
+                "/home/amsl/catkin_ws/src/path_follower/include/**",
+                "/home/amsl/catkin_ws/src/object_color_detector/point_cloud_object_color_detector/include/**",
+                "/home/amsl/catkin_ws/src/object_detector/point_cloud_object_detector/include/**",
+                "/home/amsl/catkin_ws/src/robot_observers/include/**",
+                "/home/amsl/catkin_ws/src/object_map_creator/rviz_object_map_creator/include/**",
+                "/home/amsl/catkin_ws/src/slam/slam/include/**",
+                "/usr/include/**",
+                "/home/amsl/catkin_ws/devel/.private/object_color_detector_msgs/include",
+                "/home/amsl/catkin_ws/devel/.private/multi_robot_msgs/include",
+                "/opt/ros/noetic/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

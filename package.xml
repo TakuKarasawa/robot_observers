@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_observers</name>
+  <version>0.0.0</version>
+  <description>The robot_observers package</description>
+  <maintainer email="amsl@todo.todo">amsl</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>multi_robot_msgs</build_depend>
+  <build_depend>object_color_detector_msgs</build_depend>
+  <build_depend>object_detector_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf2_geometry_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <export>
+  </export>
+</package>

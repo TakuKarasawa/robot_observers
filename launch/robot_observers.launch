@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="is_rviz" default="true" />
+    <arg name="config_path" default="$(find robot_observers)/config" />
+
+    <!-- map server -->
+    <arg name="map_file" default="$(arg config_path)/map/map.yaml" />
+    <node pkg="map_server" type="map_server" name="global_map" args="$(arg map_file)" />
+
+    <!-- object_map_manager -->
+    <node pkg="robot_observers" type="robot_observers_node" name="robot_observers" output="screen" >
+        <!-- parameter -->
+        <rosparam command="load" file="$(arg config_path)/list/observer_list.yaml" />
+    </node>
+
+    <!-- rviz -->
+    <group if="$(arg is_rviz)" >
+        <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg config_path)/rviz/robot_observers.rviz" />
+    </group>
+
+</launch>

@@ -1,0 +1,8 @@
+# observer_list
+
+observer_list:
+  - robot_name: roomba1
+    color: GREEN
+
+  - robot_name: roomba2
+    color: YELLOW
